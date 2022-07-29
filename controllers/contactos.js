@@ -2,8 +2,9 @@ const Contacto = require('../models/contactos')
 
 const getContactos =  async (req, res) => {
     const contactos = await Contacto.find()
-    res.status(200).json({ok: true, data: contactos})
+    res.status(200).json(contactos)
     }
+    
 
 const postContactos = async (req, res) => {
     const newContacto = new Contacto (req.body)
@@ -13,3 +14,7 @@ const postContactos = async (req, res) => {
     }
 
 module.exports = {getContactos, postContactos}
+
+
+
+
