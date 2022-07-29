@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'Form-Contacto-CSR-Backend'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1DD44FE4A3E04260ABCE6AFEDCDDF341 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F530C9D8C07343F48B0FC3CD1BDAC0C1 }}
           package: .
